@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32802.440
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{B7685413-A307-4067-ADC7-288ABA33355F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{B7685413-A307-4067-ADC7-288ABA33355F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01", "01", "{393B89C1-670B-4FFB-9A27-D8722C8140C1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.podstawy", "01.podstawy", "{F42FB24C-5EEC-4A76-AD4D-FC5D14763873}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.parametry", "02.parametry", "{BF666A09-73EC-4C89-A0A3-963DBB88E7E9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03.dziedziczenie i poliorfizm", "03.dziedziczenie i poliorfizm", "{3ECA6AF4-3168-46FB-B375-6F30E26F2CA1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,6 +26,12 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B7685413-A307-4067-ADC7-288ABA33355F} = {F42FB24C-5EEC-4A76-AD4D-FC5D14763873}
+		{F42FB24C-5EEC-4A76-AD4D-FC5D14763873} = {393B89C1-670B-4FFB-9A27-D8722C8140C1}
+		{BF666A09-73EC-4C89-A0A3-963DBB88E7E9} = {393B89C1-670B-4FFB-9A27-D8722C8140C1}
+		{3ECA6AF4-3168-46FB-B375-6F30E26F2CA1} = {393B89C1-670B-4FFB-9A27-D8722C8140C1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0B233F1B-287D-4E65-B16E-DF84A158AA9B}

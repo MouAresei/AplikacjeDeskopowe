@@ -100,4 +100,34 @@ namespace ConsoleApp1
         }
 
     };
+
+
+
+    public void Test3 ()
+    {
+        PersonStruct ps = new PersonStruct();
+            ps."Adam";
+        Console.WriteLine("Pole name w Test3" + ps.name);
+        GetPresonStruct(ps);
+        Console.WriteLine("Pole name w Tekst3" + ps.name);
+    }
+
+    private void GetPersonStruct(PersonStruct ps)
+        Console.WriteLine("Pole name )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
