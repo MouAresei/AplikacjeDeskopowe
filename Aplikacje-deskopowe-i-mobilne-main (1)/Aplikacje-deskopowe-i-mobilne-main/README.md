@@ -1,1 +1,0 @@
-# Aplikacje-deskopowe-i-mobilne

@@ -6,13 +6,11 @@ using System.Threading.Tasks;
 
 namespace PolymorphismApp
 {
-    class Dog
+    class Dog : Animal 
     {
-        private string name;
-        private byte age;
-        private byte atack_damage;
-        private byte hp;
-
+        protected string name;
+        protected byte age;
+       
         public Dog()
         {
             name = "bjorn";
@@ -20,21 +18,18 @@ namespace PolymorphismApp
         }
 
 
-        Dog(string name, byte age, byte atack_damage, byte hp)
+        Dog(string name, byte age) : base(name, age)
+
         {
-            this.name = name;
-            this.age = age;
-            this.atack_damage = atack_damage;
-            this.hp = hp;
+           
+          
         }
 
-        public Dog(Dog dogToCopy)
+        public Dog(Dog dogToCopy) : base(dogToCopy)
         {
-            name = dogToCopy.name;
-            age = dogToCopy.age;
-            atack_damage = dogToCopy.atack_damage;
-            hp = dogToCopy.hp
+         
            
+       
         }
 
         public void ShowInfo()
